@@ -34,7 +34,7 @@ shinyUI(
       conditionalPanel(condition = "input.tabName == 'Character Co-Occurrences'",
                        helpText(div(HTML("This visualization shows when the main characters are mentioned in the same chapter together. It was inspired by Mike Bostock's <a href=\"http://bost.ocks.org/mike/miserables/\" target=\"_blank\">Co-occurrence</a>. Clusters are based on a community-finding algorithm that seeks to find characters that appear together often.")))),
       conditionalPanel(condition = "input.tabName == 'Characteristic Words'",
-                       helpText("This visualizaition shows the main words used in the vicinity of a mention of Yossaran. Word freqfencies are normalized by the number of mentions Yossanian recieves in a given chapter.")),
+                       helpText("This visualizaition shows the main words used in the vicinity of a mention of Yossaran. Word frequencies are normalized by the number of mentions Yossanian recieves in a given chapter.")),
       br(),
       helpText(div(HTML("Visit <a href=\"http://trevorstephens.com/\" target=\"_blank\">Trevor Stephens' blog</a>."))),
       width = 3),
