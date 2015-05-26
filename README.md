@@ -1,6 +1,12 @@
 ## Joseph Heller's Catch-22: Visualized ##
 
-To run this app, please visit http://catch22.trevorstephens.com/
+To run this app, please run the following code from R:
+
+```
+shiny::runGitHub('catch22', 'trevorstephens')
+```
+
+If you don't already have them, you may need to install the following packages first: `ggplot2`, `reshape2`, `scales`, `cluster`, `shiny`, `maps`, and `geosphere`.
 
 ## The Dataset ##
 
